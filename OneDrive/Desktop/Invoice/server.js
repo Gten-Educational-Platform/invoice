@@ -1,7 +1,9 @@
 // server.js
 import express from "express";
 import cors from "cors";
-import { Low, JSONFile } from "lowdb";
+import { Low } from "lowdb";
+import { JSONFile } from "lowdb/node";
+
 
 const app = express();
 const port = process.env.PORT || 5000;
